@@ -10,8 +10,8 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'make buildworld'
-        sh 'make buildkernel'
+        sh 'bmake buildworld'
+        sh 'bmake buildkernel'
       }
     }
   }
